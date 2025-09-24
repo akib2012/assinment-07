@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Login issue",
+    "description": "User unable to login with correct credentials",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-25T10:15:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway error",
+    "description": "Transaction failing at checkout page",
+    "customer": "Jane Smith",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2025-09-24T14:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "UI alignment bug",
+    "description": "Navbar overlapping on mobile view",
+    "customer": "Michael Brown",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-09-20T08:45:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Feature request: Dark mode",
+    "description": "Customer requested dark mode option",
+    "customer": "Emily Johnson",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-09-18T17:20:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Email not sending",
+    "description": "Emails are stuck in outbox",
+    "customer": "Chris Evans",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-22T09:10:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Slow dashboard load",
+    "description": "Analytics dashboard takes too long to load",
+    "customer": "Sophia Lee",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-21T12:00:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Security vulnerability",
+    "description": "Potential SQL injection issue reported",
+    "customer": "David Miller",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2025-09-19T07:40:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Mobile app crash",
+    "description": "App crashes on iOS 17 during login",
+    "customer": "Olivia Wilson",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-09-23T11:25:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Report export issue",
+    "description": "CSV export generates empty file",
+    "customer": "Ethan Taylor",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-09-15T15:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Notification delay",
+    "description": "Push notifications delayed by 10 minutes",
+    "customer": "Isabella Martinez",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-09-17T18:30:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Database backup failed",
+    "description": "Automated backup did not run last night",
+    "customer": "William Harris",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2025-09-14T04:50:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Password reset issue",
+    "description": "Reset link expired immediately",
+    "customer": "Ava Clark",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2025-09-16T20:05:00Z"
+  }
+]

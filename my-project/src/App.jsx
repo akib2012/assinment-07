@@ -1,33 +1,52 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Suspense } from 'react'
 import './App.css'
+import Box from './components/Box'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import Tickets from './components/Tickets'
+
+
+
+
+
+const FetchTicketsData = fetch('/TicketData.json')
+  .then(data => data.json())
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className='bg-gray-100'>
+        {/* nabvar here */}
+        <Navbar></Navbar>
+
+        {/* main part here */}
+
+        <main >
+          {/* box */}
+          <Box></Box>
+
+          {/* ticket continer sections */}
+          <div className='container grid grid-cols-12 gap-5'>
+            <Suspense fallback="loading ticktes data .......">
+              <Tickets FetchTicketsData={FetchTicketsData}></Tickets>
+            </Suspense>
+
+
+            <div className='col-span-4 border-4 border-b-amber-900'>
+              <h3>Task Status</h3>
+            </div>
+          </div>
+
+
+        </main>
+
+
+        {/* footer here */}
+        <Footer></Footer>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

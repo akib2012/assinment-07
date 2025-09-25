@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "displayId": "#1001",
     "title": "Login issue",
     "description": "User unable to login with correct credentials",
     "customer": "John Doe",
@@ -10,24 +11,27 @@
   },
   {
     "id": 2,
+    "displayId": "#1002",
     "title": "Payment gateway error",
     "description": "Transaction failing at checkout page",
     "customer": "Jane Smith",
     "priority": "Critical",
-    "status": "In Progress",
+    "status": "In Progress-?",
     "createdAt": "2025-09-24T14:30:00Z"
   },
   {
     "id": 3,
+    "displayId": "#1003",
     "title": "UI alignment bug",
     "description": "Navbar overlapping on mobile view",
     "customer": "Michael Brown",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "open",
     "createdAt": "2025-09-20T08:45:00Z"
   },
   {
     "id": 4,
+    "displayId": "#1004",
     "title": "Feature request: Dark mode",
     "description": "Customer requested dark mode option",
     "customer": "Emily Johnson",
@@ -37,6 +41,7 @@
   },
   {
     "id": 5,
+    "displayId": "#1005",
     "title": "Email not sending",
     "description": "Emails are stuck in outbox",
     "customer": "Chris Evans",
@@ -46,15 +51,17 @@
   },
   {
     "id": 6,
+    "displayId": "#1006",
     "title": "Slow dashboard load",
     "description": "Analytics dashboard takes too long to load",
     "customer": "Sophia Lee",
     "priority": "Medium",
-    "status": "In Progress",
+    "status": "In Progress-?",
     "createdAt": "2025-09-21T12:00:00Z"
   },
   {
     "id": 7,
+    "displayId": "#1007",
     "title": "Security vulnerability",
     "description": "Potential SQL injection issue reported",
     "customer": "David Miller",
@@ -64,24 +71,27 @@
   },
   {
     "id": 8,
+    "displayId": "#1008",
     "title": "Mobile app crash",
     "description": "App crashes on iOS 17 during login",
     "customer": "Olivia Wilson",
     "priority": "High",
-    "status": "In Progress",
+    "status": "In Progress-?",
     "createdAt": "2025-09-23T11:25:00Z"
   },
   {
     "id": 9,
+    "displayId": "#1009",
     "title": "Report export issue",
     "description": "CSV export generates empty file",
     "customer": "Ethan Taylor",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "open",
     "createdAt": "2025-09-15T15:00:00Z"
   },
   {
     "id": 10,
+    "displayId": "#1010",
     "title": "Notification delay",
     "description": "Push notifications delayed by 10 minutes",
     "customer": "Isabella Martinez",
@@ -91,6 +101,7 @@
   },
   {
     "id": 11,
+    "displayId": "#1011",
     "title": "Database backup failed",
     "description": "Automated backup did not run last night",
     "customer": "William Harris",
@@ -100,11 +111,12 @@
   },
   {
     "id": 12,
+    "displayId": "#1012",
     "title": "Password reset issue",
     "description": "Reset link expired immediately",
     "customer": "Ava Clark",
     "priority": "High",
-    "status": "Resolved",
+    "status": "open",
     "createdAt": "2025-09-16T20:05:00Z"
   }
 ]
